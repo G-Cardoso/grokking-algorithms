@@ -19,17 +19,17 @@ Existem diversos tempos de execução, mas os principais (em ordem de velocidade
 
 E seus respectivos gráficos:
 
-IMG
+![image](https://github.com/G-Cardoso/Grokking-Algorithms/assets/30526226/b8e55480-edb4-403c-9c4d-df9cfe06db06)
 
-
-### Pesquisa Binária (Binary Search)
+### Pesquisa/Busca Binária (Binary Search)
 Diferente do método de pesquisa clássico (sequencial), onde dada uma lista ordenada, vamos procurar elemento por elemento até encontrar o que queríamos, na **Busca Binária** conseguímos reduzir o tempo de pesquisa, sempre iniciando a busca pelo meio da lista e descobrindo se encontramos o item, se está "para frente" ou se está "para trás", reduzindo o número de operações (considerando pior caso e caso médio).
 
 #### Tempo de execução:
 ##### Pesquisa Clássica (Sequencial):
 Como pesquisamos item por item, ordenados, considerando o pior caso, vamos precisar realizar **n** operações, onde **n** é a quantidade de elementos da lista, então temos O(n), ou seja, em uma lista com 1 bilhão de elementos, vamos precisar realizar 1 bilhão de operações.
 
-##### Pesquisa Binária:
-Neste caso, começamos a pesquisa pela metade da lista, depois a metade da metade, depois a metade da metade da metade e assim sucessivamente, então considerando o pior caso, vamos precisar realizar **$ \log_2 n $** operações, onde **n** é a quantidade de elementos da lista, então temos O($ \log_2 n $), ou seja, em uma lista com 1 bilhão de elementos, vamos precisar realizar apenas 30 operações.
+##### Busca Binária:
+Neste caso, começamos a pesquisa pela metade da lista, depois a metade da metade, depois a metade da metade da metade e assim sucessivamente, então considerando o pior caso, vamos precisar realizar **$\log_2 n$** operações, onde **n** é a quantidade de elementos da lista, então temos O($\log_2 n$), ou seja, em uma lista com 1 bilhão de elementos, vamos precisar realizar apenas 30 operações.
 
+Código da Busca Binária disponível em: [binary_search.py](1-introduction/binary_search.py)
 
