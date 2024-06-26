@@ -33,3 +33,5 @@ Neste caso, começamos a pesquisa pela metade da lista, depois a metade da metad
 
 Código da Busca Binária disponível em: [binary_search.py](1-introduction/binary_search.py)
 
+### Exercícios
+Disponíveis [aqui](1-introduction/exercises.md)
