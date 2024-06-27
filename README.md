@@ -84,7 +84,12 @@ Aqui está um **exemplo**:
 6. Após encontrar o menor elemento, coloco-o em uma nova lista e removo da lista anterior, ou seja, agora temos duas listas, a primeira é [7, 9, 2, 24] e a segunda é [55].  
 7. Agora vou repetir o processo com a primeira lista [7, 9, 2, 24] até que a lista fique vazia.  
 8. Ao final, teremos a primeira lista [] (vazia) e a segunda lista com os elementos ordenados [55, 24, 9, 7, 2].  
-*Obs: Para ordenar em ordem decrescente, basta trocar o passo **3** para considerar o MENOR elemento, assim, teremos o resultado final em ordem decrescente  
+*Obs: Para ordenar em ordem decrescente, basta trocar o passo **3** para considerar o MENOR elemento, assim, teremos o resultado final em ordem decrescente .
+
+IMAGEM LIVRO (pg 53)
+
+Como podemos ver pelo exemplo e imagem acima, fizemos 2 operações.  
+Para encontrar o menor elemento, fizemos **$n$** comparações **$n$** vezes, ou seja, nosso tempo de execução é **$O(n*n)$** ou **$O(n^2)$**.
 
 Código da **Ordenação por Seleção** disponível em: [selection_sort.py](2-selection_sort/binary_search.py)
 
