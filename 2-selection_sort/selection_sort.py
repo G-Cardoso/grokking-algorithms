@@ -9,7 +9,7 @@ def findMin(arr):
 
 def selectionSort(arr):
     newArr = []
-    for i in range(len(arr)):
+    for _ in range(len(arr)):
         min = findMin(arr)
         newArr.append(arr.pop(min))
     return newArr
