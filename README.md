@@ -41,10 +41,10 @@ Exercícios do Capítulo 2 estão disponíveis [aqui](1-introduction/exercises.m
 ### Memória do Computador
 A Memória de um computador é semelhante à um enorme gaveteiro, onde cada gaveta (posição da memória) possui um endereço único e pode armazenar um objeto (bytes de dados).
 
-### Arrays
-Array é uma estrutura de dados onde as informações são salvas na memória do computador de maneira **sequencial e contínua**, ou seja, se eu desejo salvar 10 objetos de 2 bytes cada, terei na memória, uma sequência de 20 bytes contínuos, representados na imagem abaixo:
+<img width="300" alt="image" src="https://github.com/G-Cardoso/grokking-algorithms/assets/30526226/dbdebc92-29e2-4200-a322-4feed933bcad">
 
-![image](https://github.com/G-Cardoso/grokking-algorithms/assets/30526226/dbdebc92-29e2-4200-a322-4feed933bcad)
+### Arrays
+Array é uma estrutura de dados onde as informações são salvas na memória do computador de maneira **sequencial e contínua**, ou seja, se eu desejo salvar 10 objetos de 2 bytes cada, terei na memória, uma sequência de 20 bytes contínuos.
 
 Sabendo a posição inicial do Array (endereço de memória), o tamanho de cada objeto (em bytes) eu consigo acessar qualquer elemento da lista.
 Por exemplo, se eu desejo acessar o elemento 4 da lista que criamos anteriormente, basta fazer ENDEREÇO_DE_MEMORIA + (4 * TAMANHO_DO_OBJETO).
@@ -56,7 +56,7 @@ Por exemplo, se eu desejo acessar o elemento 4 da lista que criamos anteriorment
 ### Listas Encadeadas (Linked List)
 Diferente dos Arrays, a Lista Encadeada não precisa ser salva de maneira contínua, **aproveitando melhor os espaços de memória**. Cada elemento salvo possui um campo que aponta para o endereço do próximo elemento, ou para o elemento anterior, dependendo da maneira como foi implementada.
 
-<img width="570" alt="image" src="https://github.com/G-Cardoso/grokking-algorithms/assets/30526226/cd4ba5ca-15a6-4fb1-98ad-996c95a32543">
+<img width="250" alt="image" src="https://github.com/G-Cardoso/grokking-algorithms/assets/30526226/cd4ba5ca-15a6-4fb1-98ad-996c95a32543">  
 
 **Inserção $O(1)$:** Para adicionar um item a uma lista encadeada é simples, basta colocar em qualquer lugar da memória e armazenar o endereço do item anterior.  
 **Leitura $O(n)$:** É necessário fazer uma leitura sequencial, ou seja, para chegar no elemento **$n$** devemos ler todos os elementos anteriores.  
@@ -64,7 +64,7 @@ Diferente dos Arrays, a Lista Encadeada não precisa ser salva de maneira contí
 
 ### Arrays vs Listas Encadeadas
 
-![image](https://github.com/G-Cardoso/grokking-algorithms/assets/30526226/c799a8a3-1c0a-4398-82ca-f7e09bbf9bf6)
+<img width="250" alt="image" src="https://github.com/G-Cardoso/grokking-algorithms/assets/30526226/c799a8a3-1c0a-4398-82ca-f7e09bbf9bf6">
 
 Como podemos ver na imagem acima, devemos escolher um ou outro de acordo com cada caso.  
 Por exemplo, se o problema requer **muita leitura** e **pouca inserção**, o vencedor será **Array**  
